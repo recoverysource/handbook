@@ -16,6 +16,7 @@ html_theme = 'furo'
 html_show_sphinx = False
 html_theme_options = {
   'source_repository': 'https://github.com/recoverysource/handbook/',
+  'announcement': '<b>ACTIVE DEVELOPMENT:</b><br />For current documentation, please visit <a href="https://docs.recoverysource.net">docs.recoverysource.net</a>',
 }
 html_title = 'Recovery Source Handbook'
 html_css_files = ['style.css']

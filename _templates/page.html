@@ -33,17 +33,17 @@
       <a href="{{ pathto(master_doc) }}"><div class="brand">{{ docstitle if docstitle else project }}</div></a>
     </div>
     <div class="header-right">
-      <div class="theme-toggle-container theme-toggle-header">
+      {#- <div class="theme-toggle-container theme-toggle-header">
         <button class="theme-toggle">
           <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
           <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
           <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
-      </div>
+      </div> -#}
       <label class="toc-overlay-icon toc-header-icon{% if furo_hide_toc %} no-toc{% endif %}" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
-        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
       </label>
     </div>
   </header>
@@ -74,17 +74,17 @@
           {{ warning("Got an unsupported value for 'top_of_page_button'") }}
           {%- endif -%}
           {#- Theme toggle -#}
-          <div class="theme-toggle-container theme-toggle-content">
+          {#- <div class="theme-toggle-container theme-toggle-content">
             <button class="theme-toggle">
               <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
               <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
               <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
-          </div>
+          </div> -#}
           <label class="toc-overlay-icon toc-content-icon{% if furo_hide_toc %} no-toc{% endif %}" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
-            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+            <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
           </label>
         </div>
         <article role="main">
@@ -127,11 +127,11 @@
             <div class="copyright">
               {%- if hasdoc('copyright') %}
                 {% trans path=pathto('copyright'), copyright=copyright|e -%}
-                  <a href="{{ path }}">Copyright</a> &#169; {{ copyright }}
+                  <a href="{{ path }}">&#169;</a> {{ copyright }}
                 {%- endtrans %}
               {%- else %}
                 {% trans copyright=copyright|e -%}
-                  Copyright &#169; {{ copyright }}
+                  &#169; {{ copyright }}
                 {%- endtrans %}
               {%- endif %}
             </div>

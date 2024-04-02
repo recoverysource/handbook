@@ -151,7 +151,7 @@ In other words ... there is nothing for you to be concerned about. A security
 update for this project is currently inconceivable.
 
 ..
-  _links
+   _links:
 .. _discord: https://discord.gg/hjTJSA7Ynu
 .. _hugo-website: https://github.com/recoverysource/hugo-website
 .. _sample config: https://github.com/area63aa/area63aa.org/blob/master/config.yaml
@@ -161,7 +161,7 @@ update for this project is currently inconceivable.
 .. _connection form: https://meetingguide.helpdocs.io/article/jsydw3bxw8-connection-form
 
 ..
- _images
+   _images:
 .. |github_start| image:: /static/images/newsite/2_github_start.png
 .. |github_create| image:: /static/images/newsite/2_github_create.png
    :scale: 60%

@@ -3,5 +3,5 @@
 Modify Hugo Themes
 ==================
 
-This should focus on making changes :ref:`Our Template <template-about>`, rather
+This should focus on making changes :ref:`Our Template <template>`, rather
 than creating a new (sub)theme.

@@ -1,4 +1,4 @@
-.. _aamod-about:
+.. _aamod:
 
 About Hugo
 ==========
@@ -18,14 +18,14 @@ static websites are immune to the vast majority of new vulnerabilities, meaning
 your website will only ever have to change/update for content or design.
 
 This added documentation walks a user through deploying this website and hosting
-it using `Github Pages`_. If you have decided you want what we (`Area 63`_) have
+it using `Github Pages`_. If you have decided you want what we  have
 and want to avoid major hurdles to get there, then you are ready to take
 :ref:`certain steps<aamod-newsite>`.
 
 Website Bootstrap
 -----------------
 
-The `Hugo Template`_ repository holds a copy of ``exampleSite/`` (from `AAMod`_)
+The `Hugo Template`_ repository holds a copy of ``exampleSite/``
 with customization done to help bootstrap a brand :ref:`aamod-newsite`
 This lets you skip a lot of requisite knowledge and get straight maintenance.
 
@@ -49,7 +49,6 @@ into content suitable for hugo to turn into a website.
 
 .. _Hugo: https://gohugo.io/
 .. _Hugo Template: https://github.com/recoverysource/hugo-template
-.. _AAMod: https://github.com/recoverysource/aamod
 .. _Github Pages: https://pages.github.com/
 .. _Area 63: https://area63aa.org/
 .. _Mainroad: https://themes.gohugo.io/themes/mainroad/

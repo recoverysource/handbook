@@ -4,8 +4,8 @@ Project Internals
 =================
 
 This page provides detailed internal information about our project. If you are
-new to our documentation, then feel free to skip this and head over to
-:ref:`getting-started`.
+new to our documentation, this may not be the best place to :ref:`Get Started
+<start>`.
 
 Project Background
 ------------------
@@ -22,7 +22,7 @@ accurate record keeping.
 Financial Transparency
 ----------------------
 
-The website solution developed to meet the original goal requires no financial
+The website solution developed to meet our original goal requires no financial
 overhead and only requires that you provide a :ref:`domain name <def-dns>`.
 
 Unfortunately, we found that predatory DNS (and over-priced services) are
@@ -75,7 +75,7 @@ focusing on both predictable billing and a high quality end-user experience.
 
    * - $15/yr
      - Register recoverysource.net
-     - Documentation, Demonstrationss, Tests, Etc.
+     - Documentation, Demonstrations, Tests, Etc.
 
    * - $20/yr
      - Register sobersupport.group
@@ -119,13 +119,25 @@ This table lists maximum contributions that can currently be accepted:
    * - $75*
      - 5 yr Registration for https://recoverysource.net/
 
-   * - $274*
-     - 8 yr Registration for https://sober.page/
-
    * - $40
      - 2 yr Registration for https://sobersupport.group/
 
-* Last Verified: 18 Feb 2024
+   * - $274*
+     - 8 yr Registration for https://sober.page/
+
+* Last Updated: 18 Feb 2024
+
+Service Level Agreement
+-----------------------
+
+It is important to note that this team is made up of volunteers who provide
+their best effort and in good faith believe that their contribution meet the
+standards of our :ref:`Core Principles <principles>`. We do not establish any
+contractual agreements or provide any guaranteed level of service (or outcome).
+
+If our service is deemed to be unsatisfactory, then the best recourse is verify
+we do not have access to your website repository and verify `our index
+<https://sober.page/>`__ redirects to your :ref:`domain <def-domain>`.
 
 .. _conduct:
 

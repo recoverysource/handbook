@@ -31,6 +31,7 @@ body {
 .toc-tree .reference {
   color: var(--color-sidebar-link-text--top-level);
   font-size: small;
+  line-height: 0.65rem;
 }
 
 /**
@@ -49,4 +50,21 @@ body {
   .sidebar-scroll, .toc-scroll {
     overflow: visible;
   }
+
+  .sidebar-tree .reference {
+    padding: 0.3rem 1.5rem;
+  }
+
+  .sidebar-tree .caption, .sidebar-tree :not(.caption) > .caption-text {
+    margin-top: 5px;
+    padding-bottom: 2px;
+  }
+}
+
+/**
+ * Basic design changes
+ **/
+
+.sidebar-brand-text {
+  text-align: center;
 }

@@ -90,12 +90,12 @@ To accept this responsibility ...
 3. Read through the disclaimer and choose the appropriate option.
 
 ..
-  _links
+   _links:
 .. _Fork: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks
 .. _Pull Request: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with⇲-pull-requests/about-pull-requests
 
 ..
-  _images
+   _images:
 .. |github_homepage| image:: /static/images/updatesite/1_github_homepage.png
 .. |github_create| image:: /static/images/updatesite/2_github_create.png
 .. |github_token| image:: /static/images/updatesite/3_github_token.png

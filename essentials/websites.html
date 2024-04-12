@@ -1,0 +1,499 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="About Registrars" href="registrars.html" /><link rel="prev" title="Vocabulary" href="../project/glossary.html" />
+
+    <link rel="shortcut icon" href="../_static/favicon.ico"/><!-- Generated with Sphinx 7.2.6 and Furo 2024.01.29 -->
+        <title>About Websites - Recovery Source Handbook</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=135e06be" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=36a5483c" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=a20a9e72" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-menu" viewBox="0 0 10 10">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" fill="none" stroke="currentColor"
+      stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="1" y1="5" x2="9" y2="5"></line>
+      <line x1="1" y1="2.5" x2="9" y2="2.5"></line>
+      <line x1="1" y1="7.5" x2="9" y2="7.5"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 10 10">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="3 7.5 5 5 3 2.5"></polyline>
+     </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+<div class="announcement">
+  <aside class="announcement-content">
+     <b>ACTIVE DEVELOPMENT:</b><br />For current documentation, please visit <a href="https://docs.recoverysource.net">docs.recoverysource.net</a> 
+  </aside>
+</div>
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">Recovery Source Handbook</div></a>
+    </div>
+    <div class="header-right"><label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  
+  <span class="sidebar-brand-text">Recovery Source Handbook</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Our Project</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Recovery Source</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project/internals.html">Project Internals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project/getting-started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project/glossary.html">Vocabulary</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Essentials</span></p>
+<ul class="current">
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">About Websites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="registrars.html">About Registrars</a></li>
+<li class="toctree-l1"><a class="reference internal" href="version_control.html">About Version Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="github.html">Working With Github</a></li>
+<li class="toctree-l1"><a class="reference internal" href="markdown.html">About Markdown</a></li>
+<li class="toctree-l1"><a class="reference internal" href="yaml.html">About YAML</a></li>
+<li class="toctree-l1"><a class="reference internal" href="commits.html">About Commit Messages</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Our Domain Solution</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../domain/about.html">About Sober Page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../domain/services.html">Sober Page Services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../domain/address.html">Domain Names</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../domain/email.html">Email Forwarding</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Your First Website</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../basic/website.html">Very Basic Site</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../basic/jekyll.html">Website with Jekyll</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Our Website Template</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../template/about.html">About Our Template</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/new.html">Start New Site</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/setup.html">Update Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/meeting.html">Update Meeting Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/page.html">Update Basic Page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/event.html">Update Event Page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/menu.html">Update Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/update.html">Refresh Source Code</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Our Template Plugin</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../module/about.html">About Hugo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../module/features.html">AAMod Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../module/format.html">Meeting Data Format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../module/prebuild.html">Prebuild Generation</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Helping Others</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../helping/issues.html">Report An Issue</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../helping/pulls.html">Pull Requests</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Developer Corner</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../guide/hugo-themes.html">Modify Hugo Themes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/html.html">About HTML</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/css.html">About CSS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/actions.html">Github Actions</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="about-websites">
+<span id="websites"></span><h1>About Websites<a class="headerlink" href="#about-websites" title="Link to this heading">#</a></h1>
+<p>At a basic level, a website is just a very simple collection of text files with
+special syntax and links to point to other files in the collection. The special
+syntax tells web browsers how the file’s content should be displayed.</p>
+<p>For our purposes, a website is a place on the internet that lets you share
+information about your group, but this definition does’t explain anything about
+how a website works or how/why anyone would be able to find it.</p>
+<p>In order to understand what a website actually is, a few more foundational
+concepts are required.</p>
+<section id="internet-protocol">
+<span id="ip"></span><h2>Internet Protocol<a class="headerlink" href="#internet-protocol" title="Link to this heading">#</a></h2>
+<p>“The Internet” is a giant network of computers that are connected to each other.
+This communication happens across “paths” that can be thought of as roads on a
+map. These paths can be physical (network cable), wireless (wifi), or cellular
+(cell).</p>
+<p>“Internet Protocol” (IP) is the standard that defines how the computers on this
+giant network talk to one another. IP provides a set of rules that define how a
+computer gets an “IP address” on the network. This functions just like a
+physical mailing address and allows one computer to address (talk to) another
+computer on the network.</p>
+<div class="admonition-recap admonition">
+<p class="admonition-title">Recap</p>
+<ul class="simple">
+<li><p>Internet: Giant network of computers, like a road network.</p></li>
+<li><p>IP: Addressing system that computers use to identify one another</p></li>
+</ul>
+</div>
+<p>For many years, internet traffic managed fine using the “IPv4” version of IP;
+this version uses address that are like the street portion of a mailing address
+(e.g. <code class="docutils literal notranslate"><span class="pre">12</span> <span class="pre">Main</span> <span class="pre">St</span></code>).</p>
+<p>As the giant network grew, capacity was reached, and cracks started to form. In
+2011, the pool of unallocated IPv4 addresses was officially depleated. To
+resolve this, IPv6 was created.</p>
+<p>From a very high level, IPv6 is very similar to IPv4, with a much longer address
+format that includes extra features. This is very similar to using a full
+mailing address, that includes street, zip, and country (e.g. <code class="docutils literal notranslate"><span class="pre">Attn:</span> <span class="pre">Personal</span>
+<span class="pre">Name,</span> <span class="pre">12</span> <span class="pre">Main</span> <span class="pre">Street,</span> <span class="pre">Cityville,</span> <span class="pre">Statestown,</span> <span class="pre">12345,</span> <span class="pre">U.S.A.</span></code>)</p>
+<div class="admonition-check-point admonition">
+<p class="admonition-title">Check Point</p>
+<p>The following list contains (valid) IPv4 and IPv6 addresses; can you guess
+which addresses are IPv4 and which are IPv6?</p>
+<ul class="simple">
+<li><p>192.168.1.1</p></li>
+<li><p>2001:0bc4:9216:dead:beef:9a84:a158:34f7</p></li>
+<li><p>8.8.8.8</p></li>
+<li><p>210.133.240.120</p></li>
+<li><p>20:4:3::82</p></li>
+<li><p>2606:4700:3000::b44c</p></li>
+<li><p>127.47.30.4</p></li>
+</ul>
+<p><sub>Answer: Anything with a colon (:) is IPv6.</sub></p>
+</div>
+<p>Each version has their own features, but the knowledge that two versions exist
+is sufficient for the remainder of this handbook.</p>
+</section>
+<section id="domain-name-system">
+<span id="dns"></span><h2>Domain Name System<a class="headerlink" href="#domain-name-system" title="Link to this heading">#</a></h2>
+<p>Domain Name Systems (DNS) provide an address book of IP addresses. This allows
+computers to find the IP address of a remote computer by telling it the “name”
+of another computer that you are trying to find.</p>
+<p>The proper term for the “name” of a computer is <code class="docutils literal notranslate"><span class="pre">Fully</span> <span class="pre">Qualified</span> <span class="pre">Domain</span> <span class="pre">Name</span></code>
+(FQDN). This is the “full name” of the computer, similar to a first and last
+name.</p>
+<div class="admonition-recap admonition">
+<p class="admonition-title">Recap</p>
+<p>Computers ask DNS for a FQDN and receive an IP address.</p>
+</div>
+<p>An FQDN can be looked at like a tree, with top level domains (TLDs) being the
+trunk, domain names being the branches, and host names being the leaves.</p>
+<p><strong>FQDN Examples:</strong></p>
+<div class="table-wrapper colwidths-given docutils container">
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 40.0%" />
+<col style="width: 20.0%" />
+<col style="width: 30.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>FQDN</p></th>
+<th class="head"><p>Host Name</p></th>
+<th class="head"><p>Domain Name</p></th>
+<th class="head"><p>TLD</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>www.google.com</p></td>
+<td><p>www</p></td>
+<td><p>google.com</p></td>
+<td><p>com</p></td>
+</tr>
+<tr class="row-odd"><td><p>google.com</p></td>
+<td><p>&#64;</p></td>
+<td><p>google.com</p></td>
+<td><p>com</p></td>
+</tr>
+<tr class="row-even"><td><p>drive.google.com</p></td>
+<td><p>drive</p></td>
+<td><p>google.com</p></td>
+<td><p>com</p></td>
+</tr>
+<tr class="row-odd"><td><p>handbook.recoverysource.net</p></td>
+<td><p>handbook</p></td>
+<td><p>recoverysource.net</p></td>
+<td><p>net</p></td>
+</tr>
+<tr class="row-even"><td><p>aa0-1.sober.page</p></td>
+<td><p>aa0-1</p></td>
+<td><p>sober.page</p></td>
+<td><p>page</p></td>
+</tr>
+<tr class="row-odd"><td><p>testbox1.devnet.example.com</p></td>
+<td><p>testbox1</p></td>
+<td><p>example.com</p></td>
+<td><p>com</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="center"><sub>‘&#64;’ is a common DNS symbol that indicates ‘root domain name’</sub></p>
+<p>Wikipedia provides <a class="reference external" href="https://en.wikipedia.org/wiki/Fully_qualified_domain_name">a good place</a>
+to dive deeper into this topic.</p>
+<div class="admonition-check-point admonition">
+<p class="admonition-title">Check Point</p>
+<p>DNS is an open directory; take some time and use <a class="reference external" href="dig">dig (online)</a> to
+query some names and observe the results.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">dig</span> <span class="n">sober</span><span class="o">.</span><span class="n">page</span> <span class="n">A</span>
+<span class="n">dig</span> <span class="n">google</span><span class="o">.</span><span class="n">com</span> <span class="n">A</span>
+<span class="n">dig</span> <span class="n">www</span><span class="o">.</span><span class="n">google</span><span class="o">.</span><span class="n">com</span> <span class="n">A</span>
+<span class="n">dig</span> <span class="n">google</span><span class="o">.</span><span class="n">com</span> <span class="n">AAAA</span>
+</pre></div>
+</div>
+</div>
+</section>
+<section id="ports-and-services">
+<h2>Ports and Services<a class="headerlink" href="#ports-and-services" title="Link to this heading">#</a></h2>
+<p>When “internet traffic” reaches the computer at the IP address, that it found
+from DNS, this “destination computer” needs to double check the address and then
+determine how to repond.</p>
+<p>Each computer on the internet is similar to an apartment building, with just a
+very basic path to each individual apartment; most individual apartments are
+empty, but a few have specialists that can respond to a specific type of
+request.</p>
+<p>Computers that have a specialist capable of responding to requests are known as
+“servers,” and the individual apartment they are located in is known as a “port.”</p>
+<div class="admonition-recap admonition">
+<p class="admonition-title">Recap</p>
+<p>Port numbers identify the specialist being requested from a given IP address.</p>
+</div>
+<p>In the same way standardized abbreviations exist to describe specific
+specialties, standardized port numbers exist to describe specific services that
+may be run by a server.</p>
+<p><strong>Specialty Examples</strong>:</p>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Port</p></th>
+<th class="head"><p>Abbreviation</p></th>
+<th class="head"><p>Specialty</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>-</p></td>
+<td><p>MD</p></td>
+<td><p>Medical Doctor</p></td>
+</tr>
+<tr class="row-odd"><td><p>-</p></td>
+<td><p>PI</p></td>
+<td><p>Private Investigator</p></td>
+</tr>
+<tr class="row-even"><td><p>53</p></td>
+<td><p>DNS</p></td>
+<td><p>Domain Name Services</p></td>
+</tr>
+<tr class="row-odd"><td><p>80</p></td>
+<td><p>HTTP</p></td>
+<td><p>HyperText Transfer Protocol</p></td>
+</tr>
+<tr class="row-even"><td><p>443</p></td>
+<td><p>HTTPS</p></td>
+<td><p>HyperText Transfer Protocol (Secured)</p></td>
+</tr>
+<tr class="row-odd"><td><p>25</p></td>
+<td><p>SMTP</p></td>
+<td><p>Simple Mail Transfer Protocol</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>When one computer makes a request to another computer, it will specify the
+specialist that it needs to communicate with. If a specialist is available, then
+they will send a response back.</p>
+<p>The specialist that is responding to requests is known as a “service.” Likewise,
+a “web server” is simply a computer that runs a specialized service which knows
+how to talk the web language, which happens to be HTTP (and HTTPS).</p>
+<div class="admonition-check-point admonition">
+<p class="admonition-title">Check Point</p>
+<p>What is the difference between an IP address and a port?</p>
+</div>
+</section>
+<section id="web-servers">
+<h2>Web Servers<a class="headerlink" href="#web-servers" title="Link to this heading">#</a></h2>
+<p>A web server is simply a computer on the internet that has a web specialist in
+room #80, and maybe another in #443 if security is enabled. The job of a web
+server is to receive requests for files and then return the content of those
+files.</p>
+<p>When a web browser is told to open a website, that computer will use the FQDN to
+ask DNS for an IP address, and then send a request for a website file to Port 80
+(or 443) at the address that was returned. The file returned uses special syntax
+that a web browser can turn into a viewable page that a user can navigate.</p>
+<p>In the early days, a web page was a single file with special syntax that told a
+web browser how the page should be displayed and links pointing to other files
+within the same domain, and sometimes linking to other websites. Each wep bage
+is also able to link to other content, like pictures, which browsers will make
+another follow-up request for.</p>
+<div class="admonition-recap admonition">
+<p class="admonition-title">Recap</p>
+<p>User instructs their web browser to open a website
+Request is sent to DNS to ask for an IP address
+Address is returned from DNS
+Request is sent to web server at well-known port for a page
+Server returns the page requested
+Browser sees the page has an embedded image
+Browser sends another request for the image
+Server returns the image
+Browser displays the page</p>
+</div>
+<p>That’s really all there is to website fundamentals! These are the building
+blocks that will help you understand the remainder of this handook.</p>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="registrars.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">About Registrars</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="../project/glossary.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Vocabulary</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                &#169; 2022, Recovery Source
+            </div>
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">About Websites</a><ul>
+<li><a class="reference internal" href="#internet-protocol">Internet Protocol</a></li>
+<li><a class="reference internal" href="#domain-name-system">Domain Name System</a></li>
+<li><a class="reference internal" href="#ports-and-services">Ports and Services</a></li>
+<li><a class="reference internal" href="#web-servers">Web Servers</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=32e29ea5"></script>
+    </body>
+</html>

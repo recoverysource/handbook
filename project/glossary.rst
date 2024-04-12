@@ -3,16 +3,18 @@
 Vocabulary
 ==========
 
-This glossary introduces common terminology used within this project. If you are
-new to our project documentation, we recommend briefly skimming through this
-page in order to familiarize yourself with common terms.
+This glossary introduces common terminology used within this handbook. If you
+are new to our project documentation, we recommend briefly skimming through this
+page in order to be aware of terms that you will be encountering.
 
 .. _def-12step:
 
 12-Step Group
 -------------
 
-TODO
+12-Step "Sober Support" Groups bring together addicts who are able to share
+similar experiences and guide others toward a sober path using spiritual
+connections.
 
 .. _def-anyone:
 

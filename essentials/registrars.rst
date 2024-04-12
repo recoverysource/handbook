@@ -1,12 +1,8 @@
 .. _domains:
 
-About Domains
-=============
+About Registrars
+================
 
-
-- What is DNS?
-  The nuts and bolts behind domains, which support websites, email, and other web services
-- TLD vs. "domain" vs. 3rd-level
 - Explanation of cost, and why/how we offer free subdomains.
 - Where can 2nd-level domains be purchased?
 - How to identify a registrar worth avoiding.

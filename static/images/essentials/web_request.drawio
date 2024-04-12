@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" modified="2024-07-05T05:11:22.048Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="FVLEOfbDsF0FeC2ncna7" version="24.6.4" type="device">
+  <diagram name="Page-1" id="PuTHx9yH4ijEFWAu4FHt">
+    <mxGraphModel dx="869" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/whcompare-isometric-web-hosting-servers/50/web-browser-on-laptop-128.png" vertex="1" parent="1">
+          <mxGeometry x="330" y="62" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.391;entryY=0.219;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.8;exitY=0.193;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eWU6L2MrK7Ym8t5uRF_s-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="133.62519999999995" y="85.42000000000007" as="sourcePoint" />
+            <mxPoint x="380.04800000000023" y="85.03199999999993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-7" value="1. Show me aa0-1.sober.page/about.html" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eWU6L2MrK7Ym8t5uRF_s-6">
+          <mxGeometry x="0.0123" y="-2" relative="1" as="geometry">
+            <mxPoint x="-6" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.781;exitY=0.219;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eWU6L2MrK7Ym8t5uRF_s-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="469" y="94" as="sourcePoint" />
+            <mxPoint x="690" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-12" value="2. GET https://aa0-1.sober.page/about.html" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eWU6L2MrK7Ym8t5uRF_s-11">
+          <mxGeometry x="0.0123" y="-2" relative="1" as="geometry">
+            <mxPoint x="-6" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-13" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/technology-and-hardware-2/200/vector_66_06-128.png" vertex="1" parent="1">
+          <mxGeometry x="692" y="70" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-15" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/DNS.svg;" vertex="1" parent="1">
+          <mxGeometry x="220" y="230" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.015;entryY=0.909;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.034;exitY=0.446;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eWU6L2MrK7Ym8t5uRF_s-15" target="eWU6L2MrK7Ym8t5uRF_s-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="290" as="sourcePoint" />
+            <mxPoint x="590" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-20" value="4. IPv4:&amp;nbsp;172.67.180.76&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;IPv6:&amp;nbsp;2606:4700:3030::2b91" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eWU6L2MrK7Ym8t5uRF_s-19">
+          <mxGeometry x="-0.2564" y="1" relative="1" as="geometry">
+            <mxPoint x="43" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.917;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="eWU6L2MrK7Ym8t5uRF_s-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="691" y="150" as="sourcePoint" />
+            <mxPoint x="530" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-18" value="3. Where is &quot;aa0-1.sober.page?" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eWU6L2MrK7Ym8t5uRF_s-16">
+          <mxGeometry x="-0.0402" y="-1" relative="1" as="geometry">
+            <mxPoint x="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="120" as="sourcePoint" />
+            <mxPoint x="460" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-27" value="7. Here is the response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eWU6L2MrK7Ym8t5uRF_s-26">
+          <mxGeometry x="0.2954" y="-1" relative="1" as="geometry">
+            <mxPoint x="29" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-31" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="140" as="sourcePoint" />
+            <mxPoint x="690" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-32" value="8. Repeat 3-7 for a CSS file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eWU6L2MrK7Ym8t5uRF_s-31">
+          <mxGeometry x="-0.201" y="1" relative="1" as="geometry">
+            <mxPoint x="28" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.391;exitY=0.375;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8;entryY=0.385;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eWU6L2MrK7Ym8t5uRF_s-2" target="eWU6L2MrK7Ym8t5uRF_s-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="180" as="sourcePoint" />
+            <mxPoint x="130" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-35" value="9. Look at this page, this page is amazing!" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eWU6L2MrK7Ym8t5uRF_s-34">
+          <mxGeometry x="0.2964" y="-2" relative="1" as="geometry">
+            <mxPoint x="28" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-36" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Person.svg;" vertex="1" parent="1">
+          <mxGeometry x="33" y="60" width="96.2" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eWU6L2MrK7Ym8t5uRF_s-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="300" as="sourcePoint" />
+            <mxPoint x="470" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-40" value="5. Show me &quot;/about.html&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eWU6L2MrK7Ym8t5uRF_s-38">
+          <mxGeometry x="0.6297" relative="1" as="geometry">
+            <mxPoint x="22" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-39" value="&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;aa0-1.sober.page&lt;/span&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/web_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="390" y="300" width="104" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.769;exitY=0.462;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eWU6L2MrK7Ym8t5uRF_s-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="360" as="sourcePoint" />
+            <mxPoint x="770" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eWU6L2MrK7Ym8t5uRF_s-25" value="6. Take this!" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eWU6L2MrK7Ym8t5uRF_s-24">
+          <mxGeometry x="-0.4409" y="-1" relative="1" as="geometry">
+            <mxPoint x="-14" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

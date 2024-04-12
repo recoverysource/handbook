@@ -19,6 +19,20 @@ deploy/maintain, without having to worry about cost, security updates, or
 predatory services, allowing "website maintenance" to become a matter of
 accurate record keeping.
 
+.. _principles:
+
+Core Principles
+~~~~~~~~~~~~~~~
+
+Our primary purpose is to support 12-Step Groups who are struggling to reach
+those who still suffer. Above all else, we are lead by the 12th Step.
+
+.. admonition:: The 12th Step of Alcoholics Anonymous
+
+   Having had a spiritual awakening as the result of these steps, we tried to
+   carry this message to alcoholics, and to practice these principles in all
+   our affairs."
+
 Financial Transparency
 ----------------------
 
@@ -107,7 +121,8 @@ limits to ten years.
 In order to maintain ``project balance of $0.00``, our prudent reserve is
 limited to these non-refundable domain costs.
 
-This table lists maximum contributions that can currently be accepted:
+This table lists maximum contributions that can currently be accepted (from
+project members):
 
 .. list-table::
    :header-rows: 1

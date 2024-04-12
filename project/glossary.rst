@@ -3,16 +3,18 @@
 Vocabulary
 ==========
 
-This glossary introduces common terminology used within this project. If you are
-new to our project documentation, we recommend briefly skimming through this
-page in order to familiarize yourself with common terms.
+This glossary introduces common terminology used within this handbook. If you
+are new to our project documentation, we recommend briefly skimming through this
+page in order to be aware of terms that you will be encountering.
 
 .. _def-12step:
 
 12-Step Group
 -------------
 
-TODO
+12-Step "Sober Support" Groups bring together addicts who are able to share
+similar experiences and guide others toward a sober path using spiritual
+connections.
 
 .. _def-anyone:
 
@@ -116,3 +118,11 @@ Website
 
 A website is a location on the internet with a collection of content, much like
 the "website" that you are most likely to be reading at this moment.
+
+.. _def-browser:
+
+Web Browser
+-----------
+
+A web browser is an application for accessing websites, such as Firefox, Chrome,
+Safari, Edge, or Opera.

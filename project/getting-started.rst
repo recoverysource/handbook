@@ -29,11 +29,17 @@ Target Audience
 ---------------
 
 Our documentation is intended for anyone who wishes to be "the website person"
-for their local 12-Step group.
+(i.e. "website administrator") for their local 12-Step group.
 
-Like any role, this position requires specific skills that may not be possessed
-by everyone. In order to ensure you can successfully fill this role, we have
-provided a basic "job description."
+Like any role, this position requires specific skills, and not every person will
+be willing to learn or able to learn these skills. :ref:`Recovery Source
+<project>` provides this handbook, other website solutions, and other support
+options, but only the reader can determine if they are the type of person who
+can/should fill this role.
+
+The following job description provides a basic outline of what typically needs
+to be prioritized in order to operate a successful website, tailored toward the
+needs of 12-Step sober support groups.
 
 .. _duties:
 
@@ -54,9 +60,9 @@ As a **website administrator**, you will be responsible to:
 .. important::
    Imposter syndrome is normal; what's important is a willingness to try.
 
-Our goal is to provide everything you need (:ref:`training <start>` &
-:ref:`support <support>`) in order to successfully administer a website for your
-12-Step Group, but only can know if you are truly fit for the job.
+   Our goal is to provide everything you need (:ref:`training <start>` &
+   :ref:`support <support>`) in order to successfully administer a website for
+   your 12-Step Group, but only can know if you are truly fit for the job.
 
 .. _docreqs:
 

@@ -1,7 +1,7 @@
 .. _websites:
 
-All About Websites
-==================
+Website Primer
+==============
 
 At a basic level, a website is just a very simple collection of text files with
 special syntax and links to point to other files in the collection. The special
@@ -16,6 +16,9 @@ Some foundational knowledge is required in order to understand these basics, and
 to troubleshoot issues that may be encountered. These foundations are similar to
 understanding that vehicles need galosine for propulsion.
 
+This chapter demystifies how websites and the Internet operate and lays the
+groundwork for the remainder of this handbook.
+
 .. _ip:
 
 Internet Protocol
@@ -27,7 +30,7 @@ map. These paths can be physical (network cable), wireless (wifi), or cellular
 (cell).
 
 "Internet Protocol" (IP) is the standard that defines how the computers on this
-giant network talk to one another. IP provides a set of rules that define how a
+giant network identify one another. IP provides a set of rules that define how a
 computer gets an "IP address" on the network. This functions just like a
 physical mailing address and allows one computer to address (talk to) another
 computer on the network.
@@ -37,13 +40,13 @@ computer on the network.
    - Internet: Giant network of computers, like a road network.
    - IP: Addressing system that computers use to identify one another
 
-For many years, internet traffic managed fine using the "IPv4" version of IP;
+For many years, internet traffic managed fine using version 4 of IP (IPv4);
 this version uses address that are like the street portion of a mailing address
 (e.g. ``12 Main St``).
 
 As the giant network grew, capacity was reached, and cracks started to form. In
 2011, the pool of unallocated IPv4 addresses was officially depleated. To
-resolve this, IPv6 was created.
+resolve this, IPv6 was released.
 
 From a very high level, IPv6 is very similar to IPv4, with a much longer address
 format that includes extra features. This is very similar to using a full
@@ -73,6 +76,12 @@ is sufficient for the remainder of this handbook.
 .. image:: /static/images/essentials/ip_highway.webp
    :alt: IP addresses plotted on a map
 
+.. admonition:: Nerd Note
+
+   The "rules of the road" that Internet traffic must follow to reach its
+   destination are known as `TCP (stateful) and UDP (stateless)
+   <https://www.cloudflare.com/learning/network-layer/internet-protocol/>`__.
+
 .. _dns:
 
 Domain Name System
@@ -83,60 +92,12 @@ IP addresses. This is like a phone book that allows one computer to find out the
 address of another computer using a human-friendly name.
 
 The proper term for the "name" of a computer is ``Fully Qualified Domain Name``
-(FQDN). This is the "full name" of the computer, similar to a first and last
-name.
+(:ref:`FQDN <fqdn>`). This is the "full name" of the computer, similar to a first
+and last name.
 
 .. admonition:: Recap
 
    Computers ask DNS for a FQDN and receive an IP address.
-
-An FQDN can be looked at like a tree, with top level domains (TLDs) being the
-trunk, domain names being the branches, and host names being the leaves.
-
-**FQDN Examples:**
-
-.. list-table::
-   :header-rows: 1
-   :widths: 40 20 30 10
-
-   * - FQDN
-     - Host Name
-     - Domain Name
-     - TLD
-
-   * - www.google.com
-     - www
-     - google.com
-     - com
-
-   * - google.com
-     - @
-     - google.com
-     - com
-
-   * - drive.google.com
-     - drive
-     - google.com
-     - com
-
-   * - handbook.recoverysource.net
-     - handbook
-     - recoverysource.net
-     - net
-
-   * - aa0-1.sober.page
-     - aa0-1
-     - sober.page
-     - page
-
-   * - testbox1.devnet.example.com
-     - testbox1
-     - example.com
-     - com
-
-.. rst-class:: center
-
-   :sub:`'@' is a common DNS term (symbol) that indicates 'root (or naked) domain name'`
 
 Wikipedia provides `a good place <https://en.wikipedia.org/wiki/Fully_qualified_domain_name>`__
 to dive deeper into this topic.
@@ -151,6 +112,8 @@ to dive deeper into this topic.
        dig google.com A
        dig www.google.com A
        dig google.com AAAA
+
+   ``A`` and ``AAAA`` are just two of many :ref:`Record Types <dns-records>`.
 
 .. _dig: https://toolbox.googleapps.com/apps/dig/
 
@@ -219,6 +182,8 @@ how to talk the web language, which is officially HTTP/S.
    What is the difference between an :ref:`IP address <ip>`
    and a :ref:`port <port>`?
 
+.. _internet:
+
 The Internet
 ------------
 
@@ -254,7 +219,7 @@ standardized format exist to identify how a specific resource should be
 requested. This format is known as a Uniform Resource Locator (URL) and is
 packed with lots of information.
 
-The format for a URL is:
+The format for a URL is::
 
     scheme "://" [fqdn] path ["?" query] ["#" fragment]
     Note: Anything in square brackets is optional.
@@ -282,8 +247,10 @@ as the standard format that files use to describe how a web browser should displ
 each page (or :ref:`resource <url>`). This "markup" adds support for tags like
 ``<b>`` for bold or ``<ul>`` for unordered lists.
 
-The `'History of HTML' chapter of 'Raggett on HTML 4' <web_history>`_ provides
-a great place to start learning about this fascinating history.
+.. admonition:: Further Reading
+
+   The `'History of HTML' chapter of 'Raggett on HTML 4' <web_history>`_
+   provides a great place to start learning about this fascinating history.
 
 Visit this `demonstration.html`_ page to see how the following HTML is displayed:
 
@@ -292,7 +259,7 @@ Visit this `demonstration.html`_ page to see how the following HTML is displayed
 
 .. admonition:: Recall
 
-    At a basic level, a website is just a [collection of web pages].
+    At a basic level, a website is just a [collection of web pages] with
     syntax and links to point to other files in the collection. The special syntax
     tells web browsers how a file (or “web page”) should be displayed.
 
@@ -306,7 +273,7 @@ as making all text in list items (``<li>``) use larger text, or adding a
 background image to a page.
 
 These CSS "style sheets" are often maintained in separate files, in order to
-separate syntax from content.
+separate presentation from content.
 
 For example, `demonstration_with_css.html`_ is exactly like `demonstration.html`_,
 with the addition of ``<link rel="stylesheet" href="demonstration.css">``.
@@ -316,7 +283,10 @@ with the addition of ``<link rel="stylesheet" href="demonstration.css">``.
 JavaScript (JS)
 ~~~~~~~~~~~~~~~
 
-HTML pages can also include JavaScript to add dynamic behavior, such as making
+HTML pages can also include JavaScript, which can be used to add dynamic
+content 
+
+such as making
 interactive elements respond to user input or updating page content in real-time.
 
 These files can also be be maintained in separate files. 

@@ -57,6 +57,14 @@ Dynamic Site
 Dynamic sites use special software that allow users to log in and make changes
 to the website to the live instance.
 
+.. _def-enduser:
+
+End User
+--------
+
+The average user of the website, who is most likely browsing from a mobile
+device and has no knowledge of how or why the internet works (it just does).
+
 .. _def-git:
 
 Git

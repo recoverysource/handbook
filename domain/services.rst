@@ -16,7 +16,7 @@ URL pattern.
 Short URL
 ---------
 
-All ``sobersupport.group`` URLs are also available via ``sober.page``. This
+All ``sober.page`` URLs are also available via ``sobersupport.group``. This
 serves as a convenient "Short URL" which should be easier for both memory and
 document spacing.
 

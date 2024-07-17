@@ -91,17 +91,17 @@ focusing on both predictable billing and a high quality end-user experience.
      - Register recoverysource.net
      - Documentation, Demonstrations, Tests, Etc.
 
-   * - $20/yr
-     - Register sobersupport.group
-     - Top-level address for support group sites
-
    * - $35/yr
      - Register sober.page
-     - Short and memorable alias
+     - Top-level address for support group sites
+
+   * - $20/yr
+     - Register sobersupport.group
+     - Non-premium URL, reserved as a backup for sober.page
 
    * - $30/yr
-     - Vultr
-     - VPS (forwarding service backend)
+     - VPS
+     - DNS forwarding service
 
    * - $0/yr
      - CloudFlare
@@ -131,16 +131,16 @@ project members):
    * - Cost
      - Item
 
-   * - $75*
-     - 5 yr Registration for https://recoverysource.net/
+   * - $60*
+     - 4 yr Registration for https://recoverysource.net/
 
-   * - $40
-     - 2 yr Registration for https://sobersupport.group/
+   * - $240*
+     - 7 yr Registration for https://sober.page/
 
-   * - $274*
-     - 8 yr Registration for https://sober.page/
+   * - $20
+     - 1 yr Registration for https://sobersupport.group/
 
-* Last Updated: 18 Feb 2024
+Last Updated: ``17 Jul 2024``
 
 Service Level Agreement
 -----------------------

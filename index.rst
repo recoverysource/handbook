@@ -113,20 +113,20 @@ to help with maintenance tasks; our `Discord Link`_ is ``Open`` to all.
 .. toctree::
    :hidden:
    :includehidden:
+   :caption: Your First Website
+
+   basic/website
+   basic/jekyll
+
+.. toctree::
+   :hidden:
+   :includehidden:
    :caption: Our Domain Solution
 
    domain/about
    domain/services
    domain/address
    domain/email
-
-.. toctree::
-   :hidden:
-   :includehidden:
-   :caption: Your First Website
-
-   basic/website
-   basic/jekyll
 
 .. toctree::
    :hidden:

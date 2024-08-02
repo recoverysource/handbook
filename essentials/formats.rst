@@ -181,3 +181,6 @@ Chapter Recap
 
 There are many :ref:`document formats <formats>` that are built from ``plain
 text`` files. Each have their own strengths, weaknesses, and use cases.
+
+In the next chapter, we will create a very basic ``static website`` using
+:ref:`HTML <html>`.

@@ -16,7 +16,8 @@ Create a Repository
    :width: 90%
 
 2. For this demonstration, the repo ``Name`` should be your own username,
-   assuming it does not contain special characters.
+   assuming it does not contain special characters, with ``.github.io``
+   appended. So the user ``mtecknology`` should use ``mtecknology.github.io``.
 
 3. Putting something online does not make it :ref:`FOSS <def-foss>`; in order
    for others to (legally) download a copy, it **must** have a license that

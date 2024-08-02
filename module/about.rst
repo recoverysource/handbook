@@ -18,7 +18,7 @@ static websites are immune to the vast majority of new vulnerabilities, meaning
 your website will only ever have to change/update for content or design.
 
 This added documentation walks a user through deploying this website and hosting
-it using `Github Pages`_. If you have decided you want what we  have
+it using `GitHub Pages`_. If you have decided you want what we  have
 and want to avoid major hurdles to get there, then you are ready to take
 :ref:`certain steps<aamod-newsite>`.
 
@@ -49,7 +49,7 @@ into content suitable for hugo to turn into a website.
 
 .. _Hugo: https://gohugo.io/
 .. _Hugo Template: https://github.com/recoverysource/hugo-template
-.. _Github Pages: https://pages.github.com/
+.. _GitHub Pages: https://pages.github.com/
 .. _Area 63: https://area63aa.org/
 .. _Mainroad: https://themes.gohugo.io/themes/mainroad/
 .. _Meeting Guide: https://www.aa.org/meeting-guide-app

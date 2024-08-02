@@ -65,6 +65,15 @@ End User
 The average user of the website, who is most likely browsing from a mobile
 device and has no knowledge of how or why the internet works (it just does).
 
+.. _def-foss:
+
+Free Open Source Software
+-------------------------
+
+Free and Open Source Software (FOSS) is any software distributed under license
+terms that allow users to use, modify, and redistribute said software in any
+manner they see fit.
+
 .. _def-git:
 
 Git
@@ -75,10 +84,10 @@ available.
 
 .. _def-github:
 
-Github
+GitHub
 ------
 
-Github is one of many services that hosts git repositories for free.
+GitHub is one of many services that hosts git repositories for free.
 
 .. _def-md:
 

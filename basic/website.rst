@@ -9,4 +9,4 @@ Very Basic Site
 - Recap how/why services like github provide free hosting for websites (using <3rd>.github.io)
 - We can use this "playground" repository to create an actual website.
 - Tutorial: Does github support creating a website directly from markdown files? We could create 2-3 additional pages and link to them.
-  The goal should be the minimum effort to get "Hello World" up on Github Pages.
+  The goal should be the minimum effort to get "Hello World" up on GitHub Pages.

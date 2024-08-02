@@ -295,3 +295,5 @@ Chapter Recap
 :ref:`Internet <internet>`. These records form the :ref:`FQDN <fqdn>` portion of
 the :ref:`URL <url>` that users type into their web browser in order to view
 your :ref:`website <websites>`.
+
+In other words, ``this is how a website is put onto the internet.``

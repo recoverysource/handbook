@@ -1,9 +1,14 @@
 .. _github:
 
-Working With Github
-===================
+Using GitHub
+============
 
-Finding Repositories:
+GitHub is :ref:`VCS platform <vcs-platform>` that is used by many :ref:`Open
+Source <def-foss>` managed by various teams of individuals from around the
+globe.
+
+Navigating Repositories
+-----------------------
 
 - How to find a repository
   Note link at the bottom of our web template points to their repository
@@ -11,13 +16,7 @@ Finding Repositories:
 - How to review the history of a file
 - How to review history for the whole repository and review individual commits
 
-Working With Git:
-
-- Using a web interface to make changes
-- Using Github Desktop to make a local copy
-- Tutorial: Create README.md in (previous tutorial) an empty repository
-  Note how this name is special and the contents saved show up like a repo front page
-
+.. _gh-register:
 
 Register an Account
 -------------------
@@ -45,16 +44,16 @@ At this point, your account has been created and is ready for use.
 You can now contact anyone in charge of the website you would like to help with
 and provide your account name with a request for access.
 
-Pull Requests
--------------
+Automatic Forks
+----------------
 
 If you have not been provided access to a project and attempt to make changes on
-a website, Github will automatically create a `Fork`_. This simply means your
+a website, GitHub will automatically create a `Fork`_. This simply means your
 account now owns a copy of the project, which means you are free to make any
 changes to your copy.
 
 After making changes to this copy, you can create a `Pull Request`_, which just
-means you would like the main project to "absorb" your changes. Github provides
+means you would like the main project to "absorb" your changes. GitHub provides
 a web interface for this which is documented on their website.
 
 Responsibility

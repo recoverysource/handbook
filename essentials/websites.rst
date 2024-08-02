@@ -102,21 +102,6 @@ and last name.
 Wikipedia provides `a good place <https://en.wikipedia.org/wiki/Fully_qualified_domain_name>`__
 to dive deeper into this topic.
 
-.. admonition:: Check Point
-
-   DNS is an open directory; take some time and use `dig (online) <dig>`_ to
-   query some names and observe the results.
-   ::
-
-       dig sober.page A
-       dig google.com A
-       dig www.google.com A
-       dig google.com AAAA
-
-   ``A`` and ``AAAA`` are just two of many :ref:`Record Types <dns-records>`.
-
-.. _dig: https://toolbox.googleapps.com/apps/dig/
-
 .. _port:
 
 Ports and Services
@@ -177,7 +162,7 @@ The specialist that is responding to requests is known as a "service." Likewise,
 a "web server" is simply a computer that runs a specialized service which knows
 how to talk the web language, which is officially HTTP/S.
 
-.. admonition:: Check Point
+.. admonition:: Stop and Think
 
    What is the difference between an :ref:`IP address <ip>`
    and a :ref:`port <port>`?
@@ -204,7 +189,7 @@ This workflow covers the standards that will be used throughout this handbook:
 3. Computers will use HTTP (or HTTPS) to contact the IP address that was returned
 4. Web Servers at the other end of the connection will send back the website
 
-.. admonition:: Check Point
+.. admonition:: Stop and Think
 
    If (step 0) becomes a user opening an email client, how will steps 3 and 4
    also change?
@@ -232,7 +217,7 @@ For example, the following URL points to **this** exact section of text:
 - **path:** we would like them to share a copy of ``/essentials/websites.html``,
 - **fragment:** and we will jump to the ``url`` section.
 
-.. admonition:: Check Point
+.. admonition:: Stop and Think
 
    What is the full sequence of events a browser will take to resolve this fqdn
    and request the page (path) from the named service (scheme)?
@@ -376,7 +361,7 @@ want to visit and keeps the role of a :ref:`web service <port>` very simple.
 
 The lack of :ref:`dynamic web software <dynamic-site>` negates nearly all common
 security risks and provides an inherently lightweight website, which many
-platforms (such as `Github Pages`_, `Gitlab Pages`_, `Cloudflare Pages`_, etc.)
+platforms (such as `GitHub Pages`_, `Gitlab Pages`_, `Cloudflare Pages`_, etc.)
 are happy to host for free, as an incentive to use their service.
 
 Web Software
@@ -436,6 +421,22 @@ detailed comparison between static and dynamic website solutions.
    :ref:`Website Template <template>` which uses Hugo to build a static
    website. Remaining chapters will focus on this goal.
 
+.. _website-tutorial:
+
+Follow Along
+------------
+
+We are going to investigate https://example.com/:
+
+1. Open `dig (online) <dig>`_ in a web browser
+2. Type the domain (``example.com``) and locate the ``A`` record
+3. This is the ``IP address`` our computer will use to talk to that website
+4. Now open https://example.com/
+5. Right-click on the empty background and choose ``View page source``
+6. This is the actual :ref:`HTML webpage <webpage>` that the server returned to
+   your browser
+7. By the end of this handbook, you will understand how to read this file.
+
 .. _website-recap:
 
 Chapter Recap
@@ -480,12 +481,13 @@ communicate issues when you run into problems that you cannot solve yourself.
 
 ..
    _links:
+.. _dig: https://toolbox.googleapps.com/apps/dig/
 .. _web_history: https://www.w3.org/People/Raggett/book4/ch02.html
 .. _demonstration.html: https://handbook.recoverysource.net/_static/demos/html/demonstration.html
 .. _demonstration_with_css.html: https://handbook.recoverysource.net/_static/demos/html/demonstration_with_css.html
 .. _demonstration_with_js.html: https://handbook.recoverysource.net/_static/demos/html/demonstration_with_js.html
 .. _XSS: https://www.cloudflare.com/learning/security/threats/cross-site-scripting
 .. _srandby: https://srandby.org/digital-writing/index.html
-.. _Github Pages: https://pages.github.com/
+.. _GitHub Pages: https://pages.github.com/
 .. _Gitlab Pages: https://docs.gitlab.com/ee/user/project/pages/
 .. _Cloudflare Pages: https://pages.cloudflare.com/

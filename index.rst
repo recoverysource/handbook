@@ -107,9 +107,8 @@ to help with maintenance tasks; our `Discord Link`_ is ``Open`` to all.
    essentials/registrars
    essentials/version_control
    essentials/github
-   essentials/markdown
-   essentials/yaml
-   essentials/commits
+   essentials/git
+   essentials/formats
 
 .. toctree::
    :hidden:

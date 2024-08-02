@@ -44,7 +44,7 @@ There are two primary options available for your domain name:
    - This project transitioned from Porkbun (better interface) to Epik (better support/features)
    - A good rule of thumb is to avoid any service that offers to build your website (i.e. BlueHost)
 
-   You will need these addresses if hosting on Github::
+   You will need these addresses if hosting on GitHub::
 
        A     @     185.199.108.153
                    185.199.109.153
@@ -62,7 +62,7 @@ Initial Setup
 This assumes you have a Domain Name (DNS) picked out and need to go from looking
 at a confusing repository to having a website published on the internet.
 
-1. Create an account and log in to Github
+1. Create an account and log in to GitHub
 
    - You can (optionally) create a "github organization," which is functionally
      equivalent to a "team". This is not required to share your fork and can be
@@ -117,7 +117,7 @@ The cost of this service is cumulative (across all sites), so we cannot provide
 a generice key. However, anyone can register for an account and create an
 `API Key <https://developers.google.com/maps/documentation/embed/get-api-key>`__.
 
-Github will warn administrators about an API key being discovered in a
+GitHub will warn administrators about an API key being discovered in a
 repository. This key cannot be kept secret and instead needs to be kept secure
 using the following settings:
 

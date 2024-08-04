@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 40px;
+  padding: 0;
+  color: #333333; /* Dark gray for the main text */
+}
+
+h1 {
+  font-weight: bold;
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+/* Horizontal Rule */
+h1::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #3498db;
+  margin-top: 5px;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+a:hover {
+  text-decoration: underline;
+}

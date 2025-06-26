@@ -40,7 +40,7 @@ Create a File
 
 This section describes how to change the content of files.
 
-.. note:: When opening files as an editor, it is often helpful to use the
+.. note:: When opening files in an editor, it is often helpful to use the
    right-click menu to use ``Open With ...``, rather than double-clicking
    to open.
 
@@ -55,7 +55,6 @@ This section describes how to change the content of files.
 
        This is a git playground for my personal experiments.
 
-6. Type some "stuff" into this file; anything is fine.
 7. Save and close this file.
 8. Return to ``Github Desktop`` and notice that it has detected a change.
 

@@ -80,7 +80,7 @@ linked to the one that came before it.
 After a website editor changes one (or more) files, VCS can compare existing
 files against what was previously stored, and then save the difference into a
 ``commit``. These commits can be shared with others, ensuring that every other
-copy can now have an exact copy of your new version.
+person can now have an exact copy of your new version.
 
 .. _vcs-platform:
 

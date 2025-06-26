@@ -4,7 +4,7 @@ Website Primer
 ==============
 
 At a basic level, a website is just a very simple collection of text files with
-special syntax and links to point to other files in the collection. The special
+special syntax and links that point to other files in the collection. The special
 syntax tells :ref:`web browsers <def-browser>` how a file (or "web page") should
 be displayed.
 
@@ -14,7 +14,8 @@ how a website works or how/why anyone would be able to find it.
 
 Some foundational knowledge is required in order to understand these basics, and
 to troubleshoot issues that may be encountered. These foundations are similar to
-understanding that vehicles need galosine for propulsion.
+understanding that vehicles need gasoline for propulsion--this all comes
+together at the end.
 
 This chapter demystifies how websites and the Internet operate and lays the
 groundwork for the remainder of this handbook.
@@ -32,7 +33,7 @@ map. These paths can be physical (network cable), wireless (wifi), or cellular
 "Internet Protocol" (IP) is the standard that defines how the computers on this
 giant network identify one another. IP provides a set of rules that define how a
 computer gets an "IP address" on the network. This functions just like a
-physical mailing address and allows one computer to address (talk to) another
+physical mailing address and allows one computer to communicate with another
 computer on the network.
 
 .. admonition:: Recap
@@ -48,10 +49,10 @@ As the giant network grew, capacity was reached, and cracks started to form. In
 2011, the pool of unallocated IPv4 addresses was officially depleated. To
 resolve this, IPv6 was released.
 
-From a very high level, IPv6 is very similar to IPv4, with a much longer address
-format that includes extra features. This is very similar to using a full
-mailing address, that includes street, zip, and country (e.g. ``Attn: Personal
-Name, 12 Main Street, Cityville, Statestown, 12345, U.S.A.``)
+From a very high level, IPv6 is similar to IPv4, with a much longer address
+format that includes extra features. Where IPv4 is akin to a street address,
+IPv6 is more similar to using a full mailing address (e.g. ``Attn: Personal
+Name, 12 Main Street, Cityville, Statestown, 12345, U.S.A.``).
 
 .. admonition:: Check Point
 
@@ -186,12 +187,13 @@ This workflow covers the standards that will be used throughout this handbook:
     Such as Google DNS at 8.8.8.8 (for IPv4) or 2001:4860:4860::8888 (for IPv6)
 
     Or Cloudflare at 1.1.1.1 (for IPv4) or 2606:4700:4700::1111 (for IPv6)
-3. Computers will use HTTP (or HTTPS) to contact the IP address that was returned
-4. Web Servers at the other end of the connection will send back the website
+3. Computers will contact the IP address that was returned
+4. HTTP uses port 80 to talk to the web server
+5. Web Servers at the other end of the connection will send back the website
 
 .. admonition:: Stop and Think
 
-   If (step 0) becomes a user opening an email client, how will steps 3 and 4
+   If (step 0) becomes a user opening an email client, how will steps 4 and 5
    also change?
 
 .. _url:
@@ -245,8 +247,8 @@ Visit this `demonstration.html`_ page to see how the following HTML is displayed
 .. admonition:: Recall
 
     At a basic level, a website is just a [collection of web pages] with
-    syntax and links to point to other files in the collection. The special syntax
-    tells web browsers how a file (or “web page”) should be displayed.
+    syntax and links that point to other files in the collection. The special
+    syntax tells web browsers how a file (or “web page”) should be displayed.
 
 .. _css-intro:
 
@@ -341,7 +343,7 @@ generators use text files, written in an easier-to-read markup language, and
 then create all pages on a website, using template files to ensure everything
 looks the same.
 
-In other words, SSGs turn simple source material into the many :ref:` HTML pages
+In other words, SSGs turn simple source material into the many :ref:`HTML pages
 <webpage>` that make up :ref:`a complete website <websites>`.
 
 For example, our earlier `demonstration.html`_ page could have been created from

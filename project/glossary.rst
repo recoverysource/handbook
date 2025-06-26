@@ -5,7 +5,7 @@ Vocabulary
 
 This glossary introduces common terminology used within this handbook. If you
 are new to our project documentation, we recommend briefly skimming through this
-page in order to be aware of terms that you will be encountering.
+page in order to be aware of terms that you will encounter.
 
 .. _def-12step:
 
@@ -13,8 +13,7 @@ page in order to be aware of terms that you will be encountering.
 -------------
 
 12-Step "Sober Support" Groups bring together addicts who are able to share
-similar experiences and guide others toward a sober path using spiritual
-connections.
+similar experiences and guide others toward a sober path.
 
 .. _def-anyone:
 

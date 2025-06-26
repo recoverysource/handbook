@@ -8,12 +8,16 @@ foundational knowledge required to understand how all the pieces fit together.
 Rather than being bound to the whims of a hosting provider, you will have the
 knowledge required to focus on the needs of your 12-Step group.
 
+.. warning::
+   This is essentially a college-level crash course that briefly skims over
+   some very complex topics in order to establish foundational building blocks.
+
 Your Responsibilities
 ---------------------
 
 In order to successully navigate this handbook,
 
-You Must:
+**You Must:**
 
 - Start from the top and work your way down, one page at a time.
 - Carefully read each paragraph on each page--we don't have fluff.
@@ -32,8 +36,8 @@ Our documentation is intended for anyone who wishes to be "the website person"
 (i.e. "website administrator") for their local 12-Step group.
 
 Like any role, this position requires specific skills, and not every person will
-be willing to learn or able to learn these skills. :ref:`Recovery Source
-<project>` provides this handbook, other website solutions, and other support
+be willing (or able) to learn these skills. :ref:`Recovery Source <project>`
+provides this handbook, other website solutions, and other support
 options, but only the reader can determine if they are the type of person who
 can/should fill this role.
 
@@ -96,7 +100,7 @@ documentation left as the final result. Tutorial-based sections are concluded
 with a ``Knowledge Check`` that allows you to check your understanding of the
 material that you just read.
 
-You are *highly encouraged* to use these sections as "a good stoppingpoint,"
+You are *highly encouraged* to use these sections as "a good stopping point,"
 and take a break before going back one or two pages. Remember to take things
 one page/topic at a time.
 

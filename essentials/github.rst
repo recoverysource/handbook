@@ -4,14 +4,12 @@ Using GitHub
 ============
 
 GitHub is :ref:`VCS platform <vcs-platform>` that is used by many :ref:`Open
-Source <def-foss>` managed by various teams of individuals from around the
-globe.
+Source <def-foss>` projects, made from teams of people from around the globe.
 
 Navigating Repositories
 -----------------------
 
 - How to find a repository
-  Note link at the bottom of our web template points to their repository
 - How to browse a repository and look at the contents of a file
 - How to review the history of a file
 - How to review history for the whole repository and review individual commits

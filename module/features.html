@@ -1,0 +1,409 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Meeting Data Format" href="format.html" /><link rel="prev" title="About Hugo" href="about.html" />
+
+    <link rel="shortcut icon" href="../_static/favicon.ico"/><!-- Generated with Sphinx 7.2.6 and Furo 2024.08.06 -->
+        <title>AAMod Features - Recovery Source Handbook</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=302659d7" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=a20a9e72" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-menu" viewBox="0 0 10 10">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" fill="none" stroke="currentColor"
+      stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="1" y1="5" x2="9" y2="5"></line>
+      <line x1="1" y1="2.5" x2="9" y2="2.5"></line>
+      <line x1="1" y1="7.5" x2="9" y2="7.5"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 10 10">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="3 7.5 5 5 3 2.5"></polyline>
+     </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">Recovery Source Handbook</div></a>
+    </div>
+    <div class="header-right"><label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  
+  <span class="sidebar-brand-text">Recovery Source Handbook</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Our Project</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Recovery Source</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project/internals.html">Project Internals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project/getting-started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project/glossary.html">Vocabulary</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Essentials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../essentials/websites.html">Website Primer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../essentials/registrars.html">Domain Setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../essentials/version_control.html">Version Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../essentials/github.html">Using GitHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../essentials/git.html">Git Primer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../essentials/formats.html">Document Formats</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Your First Website</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../basic/website.html">Very Basic Site</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../basic/jekyll.html">Website with Jekyll</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Our Domain Solution</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../domain/about.html">About Sober Page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../domain/services.html">Sober Page Services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../domain/address.html">Domain Names</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../domain/email.html">Email Forwarding</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Our Website Template</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../template/about.html">About Our Template</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/new.html">Start New Site</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/setup.html">Update Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/meeting.html">Update Meeting Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/page.html">Update Basic Page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/event.html">Update Event Page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/menu.html">Update Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/update.html">Refresh Source Code</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Our Template Plugin</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="about.html">About Hugo</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">AAMod Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="format.html">Meeting Data Format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="prebuild.html">Prebuild Generation</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Helping Others</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../helping/issues.html">Report An Issue</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../helping/pulls.html">Pull Requests</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Developer Corner</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../guide/hugo-themes.html">Modify Hugo Themes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/html.html">About HTML</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/css.html">About CSS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/actions.html">GitHub Actions</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="aamod-features">
+<span id="features"></span><h1>AAMod Features<a class="headerlink" href="#aamod-features" title="Link to this heading">¶</a></h1>
+<p>This page provides a list of features that are provided by AAMod.</p>
+<section id="feature-types">
+<h2>Feature Types<a class="headerlink" href="#feature-types" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://jpdroege.com/blog/hugo-shortcodes-partials/">Shortcodes</a> allow website editors to add content inside of markdown files.</p></li>
+<li><p><a class="reference external" href="https://gohugo.net/templates/partials/">Partials</a> are similar to <code class="docutils literal notranslate"><span class="pre">Shortcodes</span></code>, but used inside of template files.</p></li>
+<li><p>Layouts are “top-level templates” that link content to template.</p></li>
+</ul>
+<hr class="docutils" />
+</section>
+<section id="report-list">
+<span id="aamod-reportlist"></span><h2>Report List<a class="headerlink" href="#report-list" title="Link to this heading">¶</a></h2>
+<p><strong>Generates a list of links from a directory of files.</strong></p>
+<p><strong>Type:</strong> <code class="docutils literal notranslate"><span class="pre">Shortcode</span></code></p>
+<p><strong>Options:</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>base</strong>: Prefixed to <code class="docutils literal notranslate"><span class="pre">path</span></code> before disk search (required)</p></li>
+<li><p><strong>path</strong>: Directory scanned for files and used for links (required)</p></li>
+</ul>
+</div></blockquote>
+<p><strong>Usage:</strong></p>
+<blockquote>
+<div><div class="highlight-jinja notranslate"><div class="highlight"><pre><span></span><span class="x">Recent Reports:</span>
+
+<span class="cp">{{</span><span class="o">&lt;</span> <span class="nv">report-list</span> <span class="nv">base</span><span class="o">=</span><span class="s2">&quot;static&quot;</span> <span class="nv">path</span><span class="o">=</span><span class="s2">&quot;content/treasury/&quot;</span> <span class="o">&gt;</span><span class="cp">}}</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p><strong>Demonstration:</strong>
+<a class="reference external" href="https://github.com/recoverysource/aamod/tree/master/exampleSite/static/reports/treasury">Input</a>
+-&gt;  <a class="reference external" href="https://aamod-demo.recoverysource.net/features/">Output</a></p>
+<hr class="docutils" />
+</section>
+<section id="meeting-map">
+<span id="aamod-meetingmap"></span><h2>Meeting Map<a class="headerlink" href="#meeting-map" title="Link to this heading">¶</a></h2>
+<p><strong>Generates an interactive google map plotted with meeting locations.</strong></p>
+<p>This requires <a class="reference internal" href="../template/new.html#apikey"><span class="std std-ref">mapapikey</span></a> to be configured in site config.</p>
+<p><strong>Type:</strong> <code class="docutils literal notranslate"><span class="pre">Shortcode</span></code></p>
+<p><strong>Options:</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>latitude</strong>: Default map center latitude (default: 0)</p></li>
+<li><p><strong>longitude</strong>: Default map center longitude (default: 0)</p></li>
+<li><p><strong>zoom</strong>: Default map zoom level (default: 7)</p></li>
+<li><p><strong>data</strong>: Root data key with meeting information (default: “meetings”)</p></li>
+</ul>
+</div></blockquote>
+<p><strong>Usage:</strong></p>
+<blockquote>
+<div><div class="highlight-jinja notranslate"><div class="highlight"><pre><span></span><span class="cp">{{</span><span class="o">&lt;</span> <span class="nv">meeting-map</span> <span class="nv">zoom</span><span class="o">=</span><span class="m">7</span> <span class="nv">latitude</span><span class="o">=</span><span class="m">43.536388</span> <span class="nv">longitude</span><span class="o">=-</span><span class="m">96.731667</span> <span class="o">&gt;</span><span class="cp">}}</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p><strong>Result:</strong></p>
+<blockquote>
+<div><img alt="../_images/meeting-map.webp" src="../_images/meeting-map.webp" />
+</div></blockquote>
+<p><strong>Demonstration:</strong>
+<a class="reference external" href="https://raw.githubusercontent.com/recoverysource/aamod/master/exampleSite/content/meetings/_index.md">Input</a>
+-&gt; <a class="reference external" href="https://aamod-demo.recoverysource.net/meetings/">Output</a></p>
+<hr class="docutils" />
+</section>
+<section id="meeting-list">
+<span id="aamod-meetinglist"></span><h2>Meeting List<a class="headerlink" href="#meeting-list" title="Link to this heading">¶</a></h2>
+<p><strong>Generates lists of all meetings.</strong></p>
+<p><strong>Type:</strong> <code class="docutils literal notranslate"><span class="pre">Shortcode</span></code></p>
+<p><strong>Options:</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>mode</strong>: Display format of meeting list (default: time)</p></li>
+<li><p><strong>data</strong>: Root data key with meeting information (default: “meetings”)</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">time</span></code>, <code class="docutils literal notranslate"><span class="pre">address</span></code>, <code class="docutils literal notranslate"><span class="pre">interactive</span></code></p></li>
+</ul>
+</li>
+</ul>
+</div></blockquote>
+<p><strong>Usage:</strong></p>
+<blockquote>
+<div><div class="highlight-jinja notranslate"><div class="highlight"><pre><span></span><span class="cp">{{</span><span class="o">%</span> <span class="nv">meeting-list</span> <span class="nv">mode</span><span class="o">=</span><span class="s2">&quot;time&quot;</span> <span class="o">%</span><span class="cp">}}</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p><strong>Demonstration:</strong>
+<a class="reference external" href="https://github.com/recoverysource/aamod/tree/master/exampleSite/data/meetings.yaml">Input</a>
+-&gt; <a class="reference external" href="https://aamod-demo.recoverysource.net/meetings/">Output</a></p>
+<hr class="docutils" />
+</section>
+<section id="meeting-info">
+<span id="aamod-meetinginfo"></span><h2>Meeting Info<a class="headerlink" href="#meeting-info" title="Link to this heading">¶</a></h2>
+<p><strong>Display information about a meeting.</strong></p>
+<p>This is primarily meant as “glue” that converts stubs, which were generated by
+the <a class="reference internal" href="prebuild.html#aamod-prebuild"><span class="std std-ref">Prebuild Generation</span></a> process, into a display of information.</p>
+<p>This requires <a class="reference internal" href="../template/new.html#apikey"><span class="std std-ref">mapapikey</span></a> to be configured in site config.</p>
+<p><strong>Type:</strong> <code class="docutils literal notranslate"><span class="pre">Shortcode</span></code></p>
+<p><strong>Options:</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>meeting_id</strong>: The <code class="docutils literal notranslate"><span class="pre">shortcode</span></code> (or ID) of the meeting (required)</p></li>
+<li><p><strong>data</strong>: Root data key with meeting information (default: “meetings”)</p></li>
+</ul>
+</div></blockquote>
+<p><strong>Usage:</strong></p>
+<blockquote>
+<div><div class="highlight-jinja notranslate"><div class="highlight"><pre><span></span><span class="cp">{{</span><span class="o">&lt;</span> <span class="nv">meeting-info</span> <span class="nv">meeting_id</span><span class="o">=</span><span class="s2">&quot;risingtogether&quot;</span> <span class="o">&gt;</span><span class="cp">}}</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p><strong>Demonstration:</strong>
+<a class="reference external" href="https://github.com/recoverysource/aamod/blob/master/exampleSite/data/meetings.yaml#L110">Input</a>
+-&gt; <a class="reference external" href="https://aamod-demo.recoverysource.net/meetings/risingtogether/">Output</a></p>
+<hr class="docutils" />
+</section>
+<section id="meeting-guide">
+<span id="aamod-meetingguide"></span><h2>Meeting Guide<a class="headerlink" href="#meeting-guide" title="Link to this heading">¶</a></h2>
+<p><strong>Generates the JSON required for integration with :ref:`Meeting Guide&lt;meeting-guide&gt;`.</strong></p>
+<p><strong>Type:</strong> <code class="docutils literal notranslate"><span class="pre">Shortcode</span></code></p>
+<p><strong>Options:</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>timezone</strong>: Default timezone when not specified by meeting (default: Africa/Asmara)</p></li>
+<li><p><strong>data</strong>: Root data key with meeting information (default: “meetings”)</p></li>
+</ul>
+</div></blockquote>
+<p><strong>Usage:</strong></p>
+<blockquote>
+<div><div class="highlight-text notranslate"><div class="highlight"><pre><span></span># content/meeting-guide.md
+---
+outputs: [json]
+url: &quot;/meeting-guide.json&quot;
+---
+{{&lt; meeting-guide timezone=&quot;America/Los_Angeles&quot; &gt;}}
+</pre></div>
+</div>
+</div></blockquote>
+<p><strong>Result:</strong> The example usage will create a json file at <code class="docutils literal notranslate"><span class="pre">/meeting-guide.json</span></code></p>
+<p><strong>Demonstration:</strong>
+<a class="reference external" href="https://raw.githubusercontent.com/recoverysource/aamod/master/exampleSite/content/meeting-guide.md">Input</a>
+-&gt; <a class="reference external" href="https://aamod-demo.recoverysource.net/meeting-guide.json">Output</a></p>
+<hr class="docutils" />
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="format.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Meeting Data Format</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="about.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">About Hugo</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                &#169; 2022, Recovery Source
+            </div>
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">AAMod Features</a><ul>
+<li><a class="reference internal" href="#feature-types">Feature Types</a></li>
+<li><a class="reference internal" href="#report-list">Report List</a></li>
+<li><a class="reference internal" href="#meeting-map">Meeting Map</a></li>
+<li><a class="reference internal" href="#meeting-list">Meeting List</a></li>
+<li><a class="reference internal" href="#meeting-info">Meeting Info</a></li>
+<li><a class="reference internal" href="#meeting-guide">Meeting Guide</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=5fa4622c"></script>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+/**
+ * Swap primary background from inner page to menu
+ **/
+
+body {
+  background: var(--color-sidebar-background);
+}
+
+.page {
+  background: var(--color-toc-background);
+}
+
+/**
+ * Improve visibility of "on this page" section
+ **/
+
+.toc-tree {
+  border-left: none;
+}
+
+.toc-title-container, .toc-tree-container {
+  border-left: 1px solid #b0e0e6;
+}
+
+.toc-title {
+  color: var(--color-sidebar-caption-text);
+  font-size: var(--sidebar-caption-font-size);
+  font-weight: bold;
+}
+
+.toc-tree .reference {
+  color: var(--color-sidebar-link-text--top-level);
+  font-size: small;
+  line-height: 0.65rem;
+}
+
+/**
+ * Ensure entire menu is visible when fully displayed
+ **/
+
+@media only screen and (min-width: 1073px) {
+  .sidebar-drawer {
+    display: block;
+  }
+
+  .sidebar-container {
+    float: right;
+  }
+
+  .sidebar-scroll, .toc-scroll {
+    overflow: visible;
+  }
+
+  .sidebar-tree .reference {
+    padding: 0.3rem 1.5rem;
+  }
+
+  .sidebar-tree .caption, .sidebar-tree :not(.caption) > .caption-text {
+    margin-top: 5px;
+    padding-bottom: 2px;
+  }
+}
+
+/**
+ * Basic design changes
+ **/
+
+.sidebar-brand-text {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}

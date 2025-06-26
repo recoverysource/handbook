@@ -1,0 +1,343 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Website with Jekyll" href="jekyll.html" /><link rel="prev" title="Document Formats" href="../essentials/formats.html" />
+
+    <link rel="shortcut icon" href="../_static/favicon.ico"/><!-- Generated with Sphinx 7.2.6 and Furo 2024.08.06 -->
+        <title>Very Basic Site - Recovery Source Handbook</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=302659d7" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=a20a9e72" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-menu" viewBox="0 0 10 10">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" fill="none" stroke="currentColor"
+      stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="1" y1="5" x2="9" y2="5"></line>
+      <line x1="1" y1="2.5" x2="9" y2="2.5"></line>
+      <line x1="1" y1="7.5" x2="9" y2="7.5"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 10 10">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="3 7.5 5 5 3 2.5"></polyline>
+     </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">Recovery Source Handbook</div></a>
+    </div>
+    <div class="header-right"><label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  
+  <span class="sidebar-brand-text">Recovery Source Handbook</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Our Project</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../index.html">Recovery Source</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project/internals.html">Project Internals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project/getting-started.html">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project/glossary.html">Vocabulary</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Essentials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../essentials/websites.html">Website Primer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../essentials/registrars.html">Domain Setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../essentials/version_control.html">Version Control</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../essentials/github.html">Using GitHub</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../essentials/git.html">Git Primer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../essentials/formats.html">Document Formats</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Your First Website</span></p>
+<ul class="current">
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Very Basic Site</a></li>
+<li class="toctree-l1"><a class="reference internal" href="jekyll.html">Website with Jekyll</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Our Domain Solution</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../domain/about.html">About Sober Page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../domain/services.html">Sober Page Services</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../domain/address.html">Domain Names</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../domain/email.html">Email Forwarding</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Our Website Template</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../template/about.html">About Our Template</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/new.html">Start New Site</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/setup.html">Update Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/meeting.html">Update Meeting Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/page.html">Update Basic Page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/event.html">Update Event Page</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/menu.html">Update Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template/update.html">Refresh Source Code</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Our Template Plugin</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../module/about.html">About Hugo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../module/features.html">AAMod Features</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../module/format.html">Meeting Data Format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../module/prebuild.html">Prebuild Generation</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Helping Others</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../helping/issues.html">Report An Issue</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../helping/pulls.html">Pull Requests</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Developer Corner</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../guide/hugo-themes.html">Modify Hugo Themes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/html.html">About HTML</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/css.html">About CSS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/actions.html">GitHub Actions</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          
+<label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="very-basic-site">
+<span id="hello-world"></span><h1>Very Basic Site<a class="headerlink" href="#very-basic-site" title="Link to this heading">¶</a></h1>
+<p>Although the <code class="docutils literal notranslate"><span class="pre">index.html</span></code> file from your <a class="reference internal" href="../essentials/git.html#git-primer"><span class="std std-ref">git repository</span></a>
+is not valid HTML, browsers will render basic text as a text file. This means
+that our existing <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">repo</span></code> is already has everything needed to build a
+website.</p>
+<section id="github-pages">
+<h2>GitHub Pages<a class="headerlink" href="#github-pages" title="Link to this heading">¶</a></h2>
+<p>To enabled <code class="docutils literal notranslate"><span class="pre">GitHub</span> <span class="pre">Pages</span></code> on this <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">repo</span></code>:</p>
+<ol class="arabic simple">
+<li><p>Navigate to your git project on GitHub</p></li>
+<li><p>Click Settings (in the top menu)</p></li>
+<li><p>Click Pages (in the side menu)</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Source</span></code> should already be set to <code class="docutils literal notranslate"><span class="pre">Deploy</span> <span class="pre">from</span> <span class="pre">a</span> <span class="pre">branch</span></code></p></li>
+<li><p>Change <code class="docutils literal notranslate"><span class="pre">Branch</span></code> to <code class="docutils literal notranslate"><span class="pre">main/master</span></code></p></li>
+<li><p>Click <code class="docutils literal notranslate"><span class="pre">Save</span></code></p></li>
+<li><p>Periodically refresh the page, until <code class="docutils literal notranslate"><span class="pre">Your</span> <span class="pre">site</span> <span class="pre">is</span> <span class="pre">live</span></code> shows up:</p></li>
+</ol>
+<a class="reference internal image-reference" href="../_images/pages_setup.webp"><img alt="../_images/pages_setup.webp" class="align-center" src="../_images/pages_setup.webp" style="width: 90%;" /></a>
+<ol class="arabic simple" start="8">
+<li><p>Click <code class="docutils literal notranslate"><span class="pre">View</span> <span class="pre">site</span></code> to see how a web browser will render your <code class="docutils literal notranslate"><span class="pre">index.html</span></code>:</p></li>
+</ol>
+<img alt="../_images/first_render.webp" class="align-center" src="../_images/first_render.webp" />
+</section>
+<section id="improving-the-page">
+<h2>Improving the Page<a class="headerlink" href="#improving-the-page" title="Link to this heading">¶</a></h2>
+<p>The page above is rendered from an <code class="docutils literal notranslate"><span class="pre">index.html</span></code> file that has only three lines
+of text. We now want to replace this content with a proper <a class="reference internal" href="../essentials/websites.html#webpage"><span class="std std-ref">HTML page</span></a>.</p>
+<p>Replace the content of <code class="docutils literal notranslate"><span class="pre">index.html</span></code> with the following:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Home Page | DemoSite&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Hello, World!&lt;/h1&gt;
+  &lt;p&gt;This &lt;b&gt;bold&lt;/b&gt; exists within paragraph tags.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre></div>
+</div>
+<p>Now create a high quality <code class="docutils literal notranslate"><span class="pre">commit</span> <span class="pre">message</span></code> and then <code class="docutils literal notranslate"><span class="pre">push</span> <span class="pre">origin</span></code>. After a
+few moments, your website will now be updated with these changes.</p>
+<img alt="../_images/second_render.webp" class="align-center" src="../_images/second_render.webp" />
+</section>
+<section id="second-page">
+<h2>Second Page<a class="headerlink" href="#second-page" title="Link to this heading">¶</a></h2>
+<p>With a valid <code class="docutils literal notranslate"><span class="pre">index.html</span></code> <a class="reference internal" href="../essentials/websites.html#webpage"><span class="std std-ref">HTML webpage</span></a>, we can now create a
+second file, named <code class="docutils literal notranslate"><span class="pre">second.html</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;Second Page | DemoSite&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;h1&gt;Page Number Two&lt;/h1&gt;
+  &lt;p&gt;This is a second page &lt;a href=&quot;/&quot;&gt;with a link&lt;/a&gt; to the Home page.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre></div>
+</div>
+<p>Add another set of paragraph tags to <code class="docutils literal notranslate"><span class="pre">index.html</span></code> with the following:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">p</span><span class="o">&gt;</span><span class="n">Check</span> <span class="n">out</span> <span class="o">&lt;</span><span class="n">a</span> <span class="n">href</span><span class="o">=</span><span class="s2">&quot;/second.html&quot;</span><span class="o">&gt;</span><span class="n">Page</span> <span class="c1">#2&lt;/a&gt;&lt;/p&gt;</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">GitHub</span> <span class="pre">Desktop</span></code> should show the following <code class="docutils literal notranslate"><span class="pre">diff</span></code>:</p>
+<img alt="../_images/second_diff.webp" class="align-center" src="../_images/second_diff.webp" />
+<p>Push these changes to GitHub and wait for your website to be updated.</p>
+<p>Your website will now have two web pages with links back and forth!</p>
+<a class="reference internal image-reference" href="../_images/second_page.webp"><img alt="../_images/second_page.webp" class="align-center" src="../_images/second_page.webp" style="width: 90%;" /></a>
+</section>
+<section id="chapter-recap">
+<span id="helloworld-recap"></span><h2>Chapter Recap<a class="headerlink" href="#chapter-recap" title="Link to this heading">¶</a></h2>
+<p>At this point, you have now created a <code class="docutils literal notranslate"><span class="pre">Static</span> <span class="pre">Website</span></code> and put it onto the
+<a class="reference internal" href="../essentials/websites.html#internet"><span class="std std-ref">internet</span></a> using a <a class="reference internal" href="../essentials/registrars.html#fqdn"><span class="std std-ref">subdomain of github.io</span></a>
+(<code class="docutils literal notranslate"><span class="pre">&lt;subdomain&gt;.github.io</span></code>). A second page was added and then both linked to
+one another. You can even browse through each of these historical changes.</p>
+<p>The complexity of maintaining these links grows exponentially as websites grow.
+Fortunately, <a class="reference internal" href="jekyll.html#jekyll"><span class="std std-ref">tools exist</span></a> to make this easier.</p>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="jekyll.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Website with Jekyll</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="../essentials/formats.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Document Formats</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                &#169; 2022, Recovery Source
+            </div>
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Very Basic Site</a><ul>
+<li><a class="reference internal" href="#github-pages">GitHub Pages</a></li>
+<li><a class="reference internal" href="#improving-the-page">Improving the Page</a></li>
+<li><a class="reference internal" href="#second-page">Second Page</a></li>
+<li><a class="reference internal" href="#chapter-recap">Chapter Recap</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=5fa4622c"></script>
+    </body>
+</html>

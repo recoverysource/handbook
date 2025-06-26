@@ -22,7 +22,7 @@ are still suffering.
 <audience>` from absolute beginner to a competent website administrator who is
 able to support a website for their 12-Step group.
 
-- :ref:`Get Started <start>`
+- **Check it out:** :ref:`Get Started <start>`
 
 The documentation provided here covers the breadth of our projects and provides
 the foundational knowledge required to understand how websites work and how all
@@ -37,7 +37,7 @@ allowing them to easily create a website and place it onto the internet using
 a standardized URL format (ex. https\://**aa0**-**1**.sober.page for Area **0**,
 District **1** of **A.A.**).
 
-- https://sober.page/
+- **Check it out:** https://sober.page/
 
 This :ref:`domain solution <domain>` allows us to easily absorb the overhead
 required to provide a :ref:`basic set of services <soberpage>`, which grants us
@@ -54,7 +54,7 @@ Our ``Website Template`` provides a "turn-key" website solution that enables you
 to focus on little more than meeting accuracy. This removes many common stumbling
 blocks that often lead to financially-problematic results.
 
-- https://template-demo.recoverysource.net
+- **Demonstration:** https://template-demo.recoverysource.net
 
 Unlike website builders (wix, shopify, squarespace, etc.) or content management
 systems (wordpress, drupal, etc.), our solution is based on a :ref:`Static Site
@@ -67,7 +67,7 @@ website hosting.
 The real heavy lifter behind our ``Website Template`` is ``AAMod``; this improves
 accessibility and adds website features designed for 12-Step sites.
 
-- https://aamod-demo.recoverysource.net
+- **Demonstration:** https://aamod-demo.recoverysource.net
 
 This plugin adds many extra features, including automatic generation of foldable
 meeting schedule (PDF). 
@@ -83,7 +83,7 @@ needs; if something is missing or explained poorly, we certainly want about it.
 Not all things can be answered in documentation, especially if you would like us
 to help with maintenance tasks; our `Discord Link`_ is ``Open`` to all.
 
-.. _Discord Link: https://discord.gg/hjTJSA7Ynu>
+.. _Discord Link: https://discord.gg/hjTJSA7Ynu
 
 ..
    _menu:

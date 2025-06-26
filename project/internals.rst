@@ -107,7 +107,7 @@ focusing on both predictable billing and a high quality end-user experience.
      - CloudFlare
      - Basic CDN and DDoS protection
 
-Total: ``$100/yr``
+Total: ``$116/yr``
 
 .. _prudent-reserve:
 
@@ -121,8 +121,8 @@ limits to ten years.
 In order to maintain ``project balance of $0.00``, our prudent reserve is
 limited to these non-refundable domain costs.
 
-This table lists maximum contributions that can currently be accepted (from
-project members):
+This table lists maximum contributions that can currently be accepted (limited
+to project members):
 
 .. list-table::
    :header-rows: 1

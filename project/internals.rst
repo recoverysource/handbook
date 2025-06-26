@@ -87,11 +87,11 @@ focusing on both predictable billing and a high quality end-user experience.
      - Item
      - Purpose
 
-   * - $15/yr
+   * - $13/yr
      - Register recoverysource.net
      - Documentation, Demonstrations, Tests, Etc.
 
-   * - $35/yr
+   * - $32/yr
      - Register sober.page
      - Top-level address for support group sites
 
@@ -99,7 +99,7 @@ focusing on both predictable billing and a high quality end-user experience.
      - Register sobersupport.group
      - Non-premium URL, reserved as a backup for sober.page
 
-   * - $30/yr
+   * - $51/yr
      - VPS
      - DNS forwarding service
 
@@ -131,16 +131,20 @@ project members):
    * - Cost
      - Item
 
-   * - $60*
-     - 4 yr Registration for https://recoverysource.net/
+   * - $128
+     - 4 yr Registration for https://sober.page/
 
-   * - $240*
-     - 7 yr Registration for https://sober.page/
+.. _
+   * - $0
+     - 0 yr Registration for https://recoverysource.net/
 
-   * - $20
-     - 1 yr Registration for https://sobersupport.group/
+   * - $0
+     - 0 yr Registration for https://sobersupport.group/
 
-Last Updated: ``17 Jul 2024``
+   * - $0
+     - Consider reimbursement or yearly memo
+
+Last Updated: ``26 Jun 2025``
 
 Service Level Agreement
 -----------------------
